@@ -1,9 +1,10 @@
 .shopping-cart {
 	display: block;
 	margin: 0 auto;
-	width: 1000px;
+	max-width: 100%;
 	background: white;
 	border-radius: 5px;
+	
 
 	&__title {
 		font-size: 24px;
@@ -58,7 +59,10 @@
 		align-items: center;
 		background: #141618;
 		color: white;
-
+		position: static;
+		bottom: 10px;
+		width: 100vw;
+		box-sizing: border-box;
 		button {
 			border: 1px solid white;
 			background: transparent;
